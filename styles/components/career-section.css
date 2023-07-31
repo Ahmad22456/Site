@@ -1,0 +1,43 @@
+.career-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+}
+
+.career__image {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.career__head {
+    font-size: var(--size-3xl);
+    color: var(--clr-text);
+    /* border: 1px solid red; */
+}
+
+.career__text {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    gap: 2em;
+    /* border: 1px solid red; */
+}
+
+.text1 {
+    color: var(--clr-text);
+    font-size: var(--size-base);
+    /* border: 1px solid red; */
+}
+
+.text2 {
+    color: var(--clr-text);
+    font-size: var(--size-base);
+    /* border: 1px solid red; */
+}

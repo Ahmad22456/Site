@@ -1,0 +1,17 @@
+.join-section {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.join__text {
+    font-size: var(--size-3xl);
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.join__btn {
+    font-size: var(--size-sm);
+}

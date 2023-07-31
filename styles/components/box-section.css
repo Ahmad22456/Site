@@ -1,0 +1,119 @@
+.box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 2rem;
+}
+
+.box__patient{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 3em;
+    gap: 0.5em;
+    background-color: var(--clr-box1);
+    border-radius: 15px;
+    max-width: 20em;
+    min-height: 22em;
+    /* border: 1px solid red; */
+}
+
+.patient-head {
+    color: var(--clr-light);
+    font-size: var(--size-4xl);
+}
+
+.patient-text {
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+}
+
+.patient-options {
+    margin-top: 5em;
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+    background: none;
+    background-color: var(--clr-box1);
+    border: none;
+    text-decoration: underline;
+}
+
+.box__doctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 3em;
+    gap: 0.5em;
+    background-color: var(--clr-box2);
+    border-radius: 15px;
+    max-width: 20em;
+    min-height: 22em;
+    /* border: 1px solid red; */
+}
+
+.doctor-head {
+    color: var(--clr-light);
+    font-size: var(--size-4xl);
+}
+
+.doctor-text {
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+}
+
+.doctor-options {
+    margin-top: 5em;
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+    background: none;
+    background-color: var(--clr-box2);
+    border: none;
+    text-decoration: underline;
+}
+
+.box__clinics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em 3em;
+    gap: 0.5em;
+    background-color: var(--clr-box3);
+    border-radius: 15px;
+    max-width: 20em;
+    min-height: 22em;
+    /* border: 1px solid red; */
+}
+
+.clinics-head {
+    color: var(--clr-light);
+    font-size: var(--size-4xl);
+}
+
+.clinics-text {
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+}
+
+.clinics-options1 {
+    margin-top: 1.5em;
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+    background: none;
+    background-color: var(--clr-box3);
+    border: none;
+    text-decoration: underline;
+}
+
+.clinics-options2 {
+    margin-top: 1.75em;
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+    background: none;
+    background-color: var(--clr-box3);
+    border: none;
+    text-decoration: underline;
+}

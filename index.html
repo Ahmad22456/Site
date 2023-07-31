@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/moder-normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/career-section.css" />
+    <link rel="stylesheet" href="./styles/components/box-section.css" />
+    <link rel="stylesheet" href="./styles/components/logo-section.css" />
+    <link rel="stylesheet" href="./styles/components/about-section.css" />
+    <link rel="stylesheet" href="./styles/components/text-section.css" />
+    <link rel="stylesheet" href="./styles/components/department-section.css" />
+    <link rel="stylesheet" href="./styles/components/join-section.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Test</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__image">
+        <img src="./src/Header-Logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a class="header__link" href="#career">Career</a>
+          </li>
+          <li>
+            <a class="header__link" href="#department">Department</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="career" class="career-section container">
+        <img class="career__image" src="./src/small-logo.png" alt="small" />
+        <p class="career__head">Making the healthcare experience more human</p>
+        <div class="career__text">
+          <p class="text1">
+            We want patients to find the perfect doctor and book an appointment
+            in the most easy way. The patient journey should be enjoyable, and
+            that's why we are always next to them: to help them find the best
+            possible care. Anytime, anywhere.
+          </p>
+          <p class="text2">
+            We also help doctors to better manage their practice and build their
+            online reputation. With our integrated end-to-end solution, doctors
+            are able not only to improve their online presence, but also to
+            devote their time to what really matters: their patients.
+          </p>
+        </div>
+      </section>
+      <section class="box-section container">
+        <div class="box__patient">
+          <img
+            class="patient-icon"
+            src="./src/icon-patients.svg"
+            alt="patients"
+          />
+          <p class="patient-head">For patients</p>
+          <p class="patient-text">
+            Find a doctor, book a visit and solve any health-related doubt
+          </p>
+          <select class="patient-options">
+            <option value="Argentina">Argentina</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Czech">Czech</option>
+            <option value="Germany">Germany</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru">Peru</option>
+            <option value="Poland">Poland</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Spain">Spain</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Choose-Country" selected>Choose Country</option>
+          </select>
+        </div>
+        <div class="box__doctor">
+          <img class="doctor-icon" src="./src/icon-doctors.svg" alt="doctors" />
+          <p class="doctor-head">For doctors</p>
+          <p class="doctor-text">
+            Save time managing visits and cut no-shows by half
+          </p>
+          <select class="doctor-options">
+            <option value="Argentina">Argentina</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Czech">Czech</option>
+            <option value="Germany">Germany</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru">Peru</option>
+            <option value="Poland">Poland</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Spain">Spain</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Choose-Country" selected>Choose Country</option>
+          </select>
+        </div>
+        <div class="box__clinics">
+          <img
+            class="clinics-icon"
+            src="./src/icon-clinics.svg"
+            alt="clinics"
+          />
+          <p class="clinics-head">For clinics</p>
+          <p class="clinics-text">
+            Deliver an exceptional patient experience in your clinic
+          </p>
+          <select class="clinics-options1">
+            <option value="Brazil">Brazil</option>
+            <option value="Czech">Czech</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Poland">Poland</option>
+            <option value="Spain">Spain</option>
+            <option value="Turkey">Turkey</option>
+            <option value="2-to-20-Specialists" selected>
+              2 to 20 Specialists
+            </option>
+          </select>
+          <select class="clinics-options2">
+            <option value="Brazil">Brazil</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Poland">Poland</option>
+            <option value="Spain">Spain</option>
+            <option value="more-than-20-Specialists" selected>
+              More than 20 Specialis
+            </option>
+          </select>
+        </div>
+      </section>
+      <section class="logo-section container">
+        <div class="logo-text">
+          <p>We are a global company with local culture</p>
+        </div>
+        <div class="logos">
+          <img class="icon" src="./src/znanylekarz.png" alt="znanylekarz" />
+          <img class="icon" src="./src/Doctoralia.png" alt="Doctoralia" />
+          <img class="icon" src="./src/MioDottore.png" alt="MioDottore" />
+          <img class="icon" src="./src/doktortakvimi.png" alt="doktortakvimi" />
+          <img class="icon" src="./src/Znamylekar.jpg" alt="Znamylekar" />
+          <img class="icon" src="./src/logo-jameda.svg" alt="jameda" />
+          <img class="icon" src="./src/logo-tuotempo.svg" alt="tuotempo" />
+          <img class="icon" src="./src/logo-gipo-primary.svg" alt="gipo" />
+          <img class="icon" src="./src/logo-clinicloud.svg" alt="clinicloud" />
+          <img class="icon" src="./src/logo-feegow.svg" alt="feegow" />
+        </div>
+      </section>
+      <section id="aboutus" class="about-section container">
+        <div class="about__left">
+          <p class="left__head">
+            The world's biggest <br />
+            healthcare platform
+          </p>
+          <p class="left__text">
+            We work from 9 offices all over the world, bringing Docplanner Group
+            to life in 13 countries.
+          </p>
+          <img class="left__logo" src="./src/big-logo.png" alt="logo" />
+        </div>
+        <div class="about__right">
+          <div class="right__box1">
+            <img class="box1__logo" src="./src/flag.png" alt="flag" />
+            <p class="box1__head">Leader in 13 <br />countries</p>
+            <p class="box1__text">
+              Poland, Brazil, Mexico, Spain, Italy, Germany, <br />Turkey,
+              Colombia, Czech Republic, Portugal, <br />Argentina, Peru and
+              Chile
+            </p>
+          </div>
+          <div class="right__box2">
+            <img class="box2__logo" src="./src/visits.png" alt="visit" />
+            <p class="box2__head">15,000,000<br />appointments</p>
+            <p class="box2__text">booked last month</p>
+          </div>
+          <div class="right__box3">
+            <img class="box3__logo" src="./src/patients.png" alt="patient" />
+            <p class="box3__head">90,000,000<br />patients</p>
+            <p class="box3__text">visit our websites each month</p>
+          </div>
+          <div class="right__box4">
+            <img class="box4__logo" src="./src/doctors.png" alt="doctor" />
+            <p class="box4__head">210,000 active<br />doctors</p>
+            <p class="box4__text">trust our solutions</p>
+          </div>
+        </div>
+      </section>
+      <section class="text-section container">
+        <div class="text__head">
+          Improve the lives of millions.<br />Change yours forever.
+        </div>
+        <div class="text__text">
+          More than 2800 team mates share our same vision, goals and passion.<br />
+          With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio,
+          Bologna,<br />
+          Mexico City and Curitiba, our search for great talent never stops.
+        </div>
+      </section>
+      <section id="department" class="department-section container">
+        <div class="warsaw">
+          <img src="./src/warsaw.png" alt="warsaw" />
+          <div class="bottom">
+            <p class="warsaw_text">Warsaw</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="barcelona">
+          <img src="./src/barcelona.png" alt="barcelona" />
+          <div class="bottom">
+            <p class="barcelona_text">Barcelona</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="munich">
+          <img src="./src/munich.png" alt="munich" />
+          <div class="bottom">
+            <p class="munich_text">Munich</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="istanbul">
+          <img src="./src/istanbul.png" alt="istanbul" />
+          <div class="bottom">
+            <p class="istanbul_text">Istanbul</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="rome">
+          <img src="./src/rome.png" alt="rome" />
+          <div class="bottom">
+            <p class="rome_text">Rome</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="bologna">
+          <img src="./src/bologna.png" alt="bologna" />
+          <div class="bottom">
+            <p class="bologna_text">Bologna</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="curitiba">
+          <img src="./src/warsaw.png" alt="curitiba" />
+          <div class="bottom">
+            <p class="curitiba_text">Curitiba</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="rio-de-janeiro">
+          <img src="./src/rio-janeiro.png" alt="rio-de-janeiro" />
+          <div class="bottom">
+            <p class="rio-de-janeiro_text">Rio De Janeiro</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+        <div class="mexico">
+          <img src="./src/mexico-city.png" alt="mexico" />
+          <div class="bottom">
+            <p class="mexico_text">Mexico</p>
+            <div class="bottom_btn">
+              <button class="btn">SEE OPENINGS</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="join-section container">
+        <p class="join__text">Sounds interesting? Join us now!</p>
+        <div class="join__btn">
+          <button class="btn">SEE ALL CURRENT OPENINGS</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <p class="footer__text1">
+        We are leaders in 13 countries: <a href="#">Poland</a> , <a href="#">Turky</a> , <a href="#">Spain</a> , <a href="#">Italy</a> , <a href="#">Germany</a>
+        , <a href="#">Czech Republic</a> , <a href="#">Portugal</a> , <a href="#">Mexico</a> , <a href="#">Colombia</a> , <a href="#">Brazil</a> , <a href="#">Argentina</a> ,
+        <a href="#">Peru</a> and <a href="#">Chile</a>
+      </p>
+      <p class="footer__text2">
+        This site uses cookies to deliver services in accordance with this
+        Privacy Policy. You can specify the conditions for storing or accessing
+        cookies on your browser. <br />www.docplanner.com © 2023
+      </p>
+    </footer>
+  </body>
+</html>

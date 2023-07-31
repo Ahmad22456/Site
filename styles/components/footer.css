@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer__text1,
+.footer__text2 {
+    color: var(--clr-text);
+    text-align: center;
+    font-size: var(--size-xs);
+}

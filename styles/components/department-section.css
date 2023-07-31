@@ -1,0 +1,49 @@
+.department-section {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_btn  {
+    padding: 2em 2em;
+    font-size: var(--size-xs);
+}
+
+.warsaw,
+.istanbul,
+.curitiba {
+    align-self: flex-end;
+    justify-self: flex-end;
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+}
+
+.munich,
+.bologna,
+.mexico {
+    align-self: flex-start;
+    justify-self: flex-start;
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+}
+
+.warsaw_text,
+.barcelona_text,
+.munich_text,
+.istanbul_text,
+.rome_text,
+.bologna_text,
+.curitiba_text,
+.rio-de-janeiro_text,
+.mexico_text {
+    color: var(--clr-text);
+    padding: 2em 2em;
+}
